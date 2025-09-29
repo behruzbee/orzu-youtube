@@ -1,0 +1,21 @@
+{
+  "videos": {
+    "recent": "Полезные видео",
+    "cards": [
+      {
+        "videoId": "OFizxbKaZrs",
+        "duration": "15:10",
+        "title": "Секрет стройности и энергии",
+        "subtitle": "Почему все переходят на раздельное питание?",
+        "author": "Orzu Medical"
+      },
+      {
+        "videoId": "yGR3uxIq4FI",
+        "duration": "08:45",
+        "title": "Перезагрузка организма за неделю",
+        "subtitle": "Почувствуй лёгкость и восстанови силы",
+        "author": "Orzu Medical"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "videos": {
+    "recent": "Foydali videolar",
+    "cards": [
+      {
+        "videoId": "FKghs6Hypis",
+        "duration": "13:40",
+        "title": "Ёш ва соғлом бўлиш сирлари",
+        "subtitle": "Нега ҳамма ажратиб овқатланишга ўтмоқда?",
+        "author": "Orzu Medical"
+      },
+      {
+        "videoId": "z69-XmBKavM",
+        "duration": "09:20",
+        "title": "Bir haftada organizmni qayta yuklang",
+        "subtitle": "Yengillikni his eting va tetik bo‘ling",
+        "author": "Orzu Medical"
+      }
+    ]
+  }
+}
