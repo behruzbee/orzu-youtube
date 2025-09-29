@@ -20,7 +20,7 @@ export const App = () => {
   return (
     <>
       <Header />
-      <div className="container">
+      <div className="container mb-20">
         <motion.h5
           className={c.videoCardsHeader}
           initial={{ opacity: 0, y: -20 }}
