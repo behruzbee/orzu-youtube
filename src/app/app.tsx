@@ -2,17 +2,9 @@ import { Header } from "../components/header";
 import { VideoCard } from "../components/video-card";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { Howl } from "howler";
 
 import c from "./styles.module.scss";
 
-// 🎵 пример фона (можешь поменять на любой mp3/ogg)
-const bgMusic = new Howl({
-  src: ["/music/background.mp3"],
-  autoplay: true,
-  loop: true,
-  volume: 0.2,
-});
 
 export const App = () => {
   const { t } = useTranslation();
