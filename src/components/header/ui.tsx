@@ -6,8 +6,9 @@ import c from "./styles.module.scss";
 type Lang = "UZ" | "RU";
 
 export const Header = () => {
+   const saved = localStorage.getItem("lang") as Lang | null;
   const { i18n } = useTranslation();
-  const [lang, setLang] = useState<Lang>("UZ");
+  const [lang, setLang] = useState<Lang>(saved || "UZ");
   const [open, setOpen] = useState(false);
 
   // восстановление языка из localStorage
